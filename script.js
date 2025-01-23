@@ -7,8 +7,15 @@ function add(a, b) {
 function product(a, b) {
   return a * b;
 }
-let x = 10;
-let y = 20;
-console.log(add(x, y));
-console.log(product(x, y));
-console.log(substract(x, y));
+
+let a = 10;
+let b = 20;
+console.log(add(a, b));
+console.log(product(a, b));
+console.log(substract(a, b));
+
+let x = add(2, 5);
+let y = substract(15, 10);
+let z = product(8, 5);
+
+console.log(x + y + z);
