@@ -4,6 +4,9 @@ const substract = (x, y) => x - y;
 function add(a, b) {
   return a + b;
 }
+
+console.log("this is my function");
+
 function product(a, b) {
   return a * b;
 }
@@ -16,8 +19,7 @@ let z = product(8, 5);
 
 console.log(x + y + z);
 
-
-// divided 
-function divided (a,b){
-  return a/b
+// divided
+function divided(a, b) {
+  return a / b;
 }
